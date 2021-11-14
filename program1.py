@@ -24,7 +24,14 @@ elif grade >= 88 and grade <= 90:
     print("Description: Very good")
 
 # 2.0           85-87           Good
+elif grade >= 85 and grade <= 87:
+    print("mark: 2.0")
+    print("Description: good")
+
 # 2.25          82-84           Good
+elif grade >= 82 and grade <= 84:
+    print("mark: 2.25")
+    print("Description: Good")
 # 2.50          79-81           Satisfactory
 # 2.75          76-78           Satisfactory
 # 3.0           75              Passing
