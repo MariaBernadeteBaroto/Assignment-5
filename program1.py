@@ -44,6 +44,10 @@ elif grade >= 76 and grade <= 78:
     print("description: satisfactory")
 
 # 3.0           75              Passing
+elif grade == 75:
+    print("mark: 3.0")
+    print("description: passing")
+
 # 5.0           65-74           Failure
 # Inc.                          Incomplete
 # W                             Withdrawn
