@@ -8,6 +8,11 @@ number3 = int(input("Enter third number: "))
 # number1 is the lowest number
 if number1 < number2 and number2 < number3:
     print("The lowest number is number1")
+else:
+    # number2 as the lowest number
+    if number2 < number1 and number1 < number3:
+        print("The lowest number is number2")
+    
 
 
 
