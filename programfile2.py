@@ -12,6 +12,12 @@ else:
     # number2 as the lowest number
     if number2 < number1 and number1 < number3:
         print("The lowest number is number2")
+    else:
+        # number3 as the lowest number
+        if number3 < number2 and number2 < number1:
+            print("The lowest number is number3")
+
+print("DONE!")
     
 
 
