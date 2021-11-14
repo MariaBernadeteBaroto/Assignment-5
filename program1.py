@@ -49,6 +49,10 @@ elif grade == 75:
     print("description: passing")
 
 # 5.0           65-74           Failure
+elif grade >= 65 and grade <= 74:
+    print("mark: 5.0")
+    print("description: failure")
+    
 # Inc.                          Incomplete
 # W                             Withdrawn
 # D                             Dropeed
