@@ -22,11 +22,19 @@ else:
             if grade >= 88 and grade <= 90:
                 print("mark: 1.75")
                 print("description: Very Good")
+            else:
+                # 2.0           85-87           Good
+                if grade >= 85 and grade <= 87:
+                    print("mark: 2.0")
+                    print("description: Good")
+                else:
+                    # 2.25          82-84           Good
+                    if grade >= 82 and grade <= 84:
+                        print("mark: 2.25")
+                        print("description: Good")
 
 
 
-# 1.5           91-93           Very Good
-# 1.75          88-90           Very Good
 # 2.0           85-87           Good
 # 2.25          82-84           Good
 # 2.50          79-81           Satisfactory
