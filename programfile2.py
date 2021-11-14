@@ -4,6 +4,8 @@ number1 = int(input("Enter first number: "))
 number2 = int(input("Enter second number: "))
 number3 = int(input("Enter third number: "))
 
+math.floor(number1, number2, number3)
+
 # Find the lowest among three numbers
 # number1 is the lowest number
 if number1 < number2 and number2 < number3:
