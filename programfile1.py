@@ -8,12 +8,23 @@ if grade >= 97 and grade <= 100:
     print("mark: 1.0")
     print("description: Excellent")
 else:
-   # 1.25          94-96           Excellent 
-   if grade >= 94 and grade<= 96:
-       print("mark: 1.25")
-       print("description: Excellent")
-       
-# 1.25          94-96           Excellent
+    # 1.25          94-96           Excellent
+    if grade >= 94 and grade <= 96:
+        print("mark: 1.25") 
+        print("description: Excellent")
+    else:
+        # 1.5           91-93           Very Good
+        if grade >= 91 and grade <= 93:
+            print("mark: 1.5")
+            print("description: Very Good")
+        else:
+            # 1.75          88-90           Very Good
+            if grade >= 88 and grade <= 90:
+                print("mark: 1.75")
+                print("description: Very Good")
+
+
+
 # 1.5           91-93           Very Good
 # 1.75          88-90           Very Good
 # 2.0           85-87           Good
