@@ -1,6 +1,6 @@
  # step 1. Ask for grade percentage, covet and store
 
-grade = int(input("What is your grade percentage? "))
+grade = float(input("What is your grade percentage? "))
  
 # grade/mark    percentage     description
 # 1.0           97-100          Excellent
@@ -51,12 +51,4 @@ else:
 print("DONE!")
 
 
-                        
-                
-
-
-# 3.0           75              Passing
-# 5.0           65-74           Failure
-# Inc.                          Incomplete
-# W                             Withdrawn
-# D                             Dropeed
+                    
